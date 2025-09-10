@@ -1,0 +1,18 @@
+# Ignore Python cache
+__pycache__/
+*__pycache__/
+
+# Ignore environment files
+.env
+
+# Ignore all log files
+*.log
+
+# chainlit specific files
+.chainlit/
+.files/
+chainlit.md
+
+# Ignore Python bytecode files
+*.pyc
+test_*.py
